@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding-bottom:15px;
+}
+.nav-logo{
+    margin-top: 5rem;
+    margin: 0 ;
+    padding-left:2.5rem ;
+}
+.nav-search-input{
+    padding: 0 0 0 1rem;
+    background-color: #fff;
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: 16%;
+    width: 500px;
+    height: 40px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    border-color: #cacaca;
+    border-style: solid;
+}
+.nav-search{
+    background-image: url(/assets/img/icone\ de\ busca.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #fff;
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: 43%;
+    width: 70PX;
+    height: 44px;
+    border-radius: 0 20px 20px 0;
+    border-color: #cacaca;
+    border-style: solid;
+    cursor: pointer;
+
+}
+.icons-top-right{
+    margin-top: 0;
+    margin-right: 4rem ;
+    position: absolute;
+    right: 9px;
+}
+.menu-icon{
+    margin-bottom: 18px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.icons-top-right{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right:90px;
+    gap:24px;
+    height: 24px;
+    width: 24px;
+}
+
+.content {
+    max-width: 1400px;
+    margin:  0  0 0 40px ;
+    grid-gap: .5rem;
+    display: grid;
+    grid-template-areas: "main sidebar";
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+.main{
+    max-width: 1280px;
+    height: 720px;
+    flex: 1 1 auto;
+    padding-top: 24px;
+}
+.main h1{
+    
+        font-size: 20px;
+       }
+.video{
+    width: 1280px;
+    height: 720px;
+    border-radius: 1.2rem;
+}
+.video-actions{
+    width: 40px;
+    height: 40px;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.video-actions h2{
+    font-size: 14px;
+}
+#touch img{
+    width: 24px;
+    height: 24px;
+    gap: 40px;
+
+}
+#action-container{
+    margin-left: 15px;
+    min-width: 0;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+}
+.avatar-chanel{
+    max-width: 40px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.saidbar {
+    max-width: 360px;
+    padding-left: 15px;
+}
+.saidbar h2 {
+    margin-left: 10px;
+   font-size: 20px;
+}
+#sidbar-container {
+    flex-direction: column;
+    display: flex;
+}
+#sidbar-container img{
+    border-radius: 9px;
+    cursor: pointer;
+}
+.saidbar-video div{
+    display: flex;
+    width: 160px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.title-video-thumb{
+    margin:  -5px 0 .5rem 0;
+    width: 190px;
+    font-size: 14px;
+}
+.title-video-thumb a{
+    color: #000000;
+    text-decoration: none;
+}
+.saidbar-video span{
+    padding-left: 10px;
+    font-size: 12px;
+    max-width: 150px;
+    height: 90px;
+}
+.subtitle{
+    margin: 0;
+    font-weight: initial;
+    font-size: 12px;
+}
+.subscription{
+    display: flex;
+    min-width: 92px;
+    font-size: 20px;
+}
+.registered{
+    font-size: 14px;
+    min-width: 110px;
+    height: 20px;
+}
+.buttom-subscription{
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background: #CC0000;
+    width: 159px;
+    height: 40px;
+}
+.feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 42px;
+}
+.feedback div{
+    display: flex;
+}
+.feedback div span{
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    min-width: 90px;
+}
+.description{
+    margin-top: .9rem;
+    padding: .5rem .5rem .5rem .5rem;
+    background: #00000011;
+    border-radius: 12px;
+}
+.description h2 , p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
