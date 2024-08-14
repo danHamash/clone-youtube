@@ -107,7 +107,12 @@ p{
 #touch img{
     width: 24px;
     height: 24px;
+}
 
+[src*=whatsapp]{ /*foto de perfil*/
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
 }
 #action-container{
     margin-left: 15px;
