@@ -109,7 +109,7 @@ p{
     height: 24px;
 }
 
-[src*=whatsapp]{ /*foto de perfil*/
+[src*=whatsapp]{
     width: 34px;
     height: 34px;
     border-radius: 50%;
