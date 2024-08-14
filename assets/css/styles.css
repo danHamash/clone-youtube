@@ -76,19 +76,14 @@ p{
 }
 
 .content {
-    max-width: 1400px;
-    margin:  0  0 0 40px ;
-    grid-gap: .5rem;
-    display: grid;
-    grid-template-areas: "main sidebar";
-    padding-left: 3rem;
-    padding-right: 1rem;
-}
-.main{
     max-width: 1280px;
     height: 720px;
     flex: 1 1 auto;
-    padding-top: 24px;
+    display: grid;
+    grid-template-areas: "main sidebar";
+    padding: 1.2rem 1rem 0 3rem;
+    margin: 0 0 0 40px ;
+    grid-gap: .5rem;
 }
 .main h1{
     
